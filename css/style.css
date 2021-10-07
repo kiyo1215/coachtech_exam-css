@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+header h1 {
+  color: blue;
+  font-size: 25px;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+main {
+  position: relative;
+}
+
+img {
+  position: absolute;
+  width: 50%;
+  height: 390px;
+  left: 50%;
+  z-index: 2;
+}
+
+main h1 {
+  font-size: 50px;
+}
+
+.smile {
+  transform: translateY(220px);
+  z-index: 1;
+}
+
+.brown {
+  height: 200px;
+  width: 75%;
+  background-color: brown;
+}
